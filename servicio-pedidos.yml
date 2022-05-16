@@ -4,7 +4,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: 
-    url: jdbc:mysql://${hostdb}:3306/viajes?serverTimezone=UTC
+    url: jdbc:mysql://${hostdb}:3306/pedidosbd?serverTimezone=UTC
     username: root
   jpa:
     hibernate:
